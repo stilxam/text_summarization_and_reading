@@ -24,6 +24,8 @@ def convert_pdf_to_document(path):
 
 
 if __name__ == "__main__":
-    pth = "data/pdfs/shepherd-gruber-2020-the-lean-startup-framework-closing-the-academic-practitioner-divide.pdf"
+    lst = list(Path("data/pdfs").glob("*.pdf"))
+    print(lst)
+    # pth = "data/pdfs/shepherd-gruber-2020-the-lean-startup-framework-closing-the-academic-practitioner-divide.pdf"
 
-    convert_pdf_to_document(pth)
+    # convert_pdf_to_document(pth)

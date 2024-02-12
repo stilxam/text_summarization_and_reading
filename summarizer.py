@@ -77,7 +77,7 @@ def main():
     args = parser.parse_args()
     if args.summarize:
         print('Summarizing')
-        total_text = read_and_split(file_path = Path.cwd().joinpath("data", args.file_name + '.txt'))
+        total_text = read_and_split(file = Path.cwd().joinpath("data", args.file_name + '.txt'))
         total_summary = summarize(total_text, model=args.model)
 
         with open(Path.cwd().joinpath("summaries", args.file_name + '-summary.txt'), 'w') as f:

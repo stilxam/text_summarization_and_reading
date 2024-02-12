@@ -4,20 +4,17 @@
     <inspection_tool class="PyPackageRequirementsInspection" enabled="true" level="WARNING" enabled_by_default="true">
       <option name="ignoredPackages">
         <value>
-          <list size="4">
-            <item index="0" class="java.lang.String" itemvalue="kaleido" />
-            <item index="1" class="java.lang.String" itemvalue="lazy_loader" />
-            <item index="2" class="java.lang.String" itemvalue="pydantic_core" />
-            <item index="3" class="java.lang.String" itemvalue="typing_extensions" />
+          <list size="8">
+            <item index="0" class="java.lang.String" itemvalue="pandas" />
+            <item index="1" class="java.lang.String" itemvalue="tqdm" />
+            <item index="2" class="java.lang.String" itemvalue="docxtpl" />
+            <item index="3" class="java.lang.String" itemvalue="kaleido" />
+            <item index="4" class="java.lang.String" itemvalue="nbformat" />
+            <item index="5" class="java.lang.String" itemvalue="plotly" />
+            <item index="6" class="java.lang.String" itemvalue="openpyxl" />
+            <item index="7" class="java.lang.String" itemvalue="docx" />
           </list>
         </value>
-      </option>
-    </inspection_tool>
-    <inspection_tool class="PyPep8NamingInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
-      <option name="ignoredErrors">
-        <list>
-          <option value="N803" />
-        </list>
       </option>
     </inspection_tool>
   </profile>
